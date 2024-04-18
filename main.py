@@ -112,7 +112,7 @@ game_over = False
 pass_num = 0
 
 #フォントの設定
-font = pygame.font.SysFont(None, 100, bold=False, italic=False)
+font = pygame.font.SysFont('sans', 100, bold=False, italic=False)
 
 black_win_surface = font.render("Black Win!", False, BLACK, RED)
 white_win_surface = font.render("White Win!", False, WHITE, RED)
